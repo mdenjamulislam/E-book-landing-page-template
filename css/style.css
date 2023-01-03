@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,100;1,300;1,400;1,500&display=swap');
+
+
+
+/* Basic Styling */
+:root {
+    --primary: #212F3D;
+    --secondary: #637892;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: var(--secondary);
+}
+
+.container-custom {
+    max-width: 1650px;
+    width: 100%;
+    padding: 0 .75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-outline {
+    color: var(--primary);
+    padding: 12px 15px;
+    border: 2px solid var(--primary);
+    border-radius: 7px;
+}
+.btn-outline:hover {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+/* Header area */
+.navbar .container-custom {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+.nav-item a.nav-link {
+    color: var(--secondary);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.nav-item a.nav-link:hover {
+    color: var(--primary) !important;
+}
