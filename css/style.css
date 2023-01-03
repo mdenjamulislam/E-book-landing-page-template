@@ -22,16 +22,45 @@ body {
     margin-right: auto;
 }
 
+.bg-cyan {
+    background-color: #E4F5FE;
+}
+
+.p-section {
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.pt-section {
+    padding-top: 80px;
+}
+
 .btn-outline {
     color: var(--primary);
     padding: 12px 15px;
     border: 2px solid var(--primary);
     border-radius: 7px;
 }
+
 .btn-outline:hover {
     background-color: var(--primary);
     color: #fff;
 }
+
+.btn-filled {
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--primary);
+    padding: 12px 53px;
+    border-radius: 10px;
+}
+.btn-filled:hover {
+    color: #dcdcdc;
+}
+
+
+
 
 /* Header area */
 .navbar .container-custom {
@@ -52,4 +81,35 @@ body {
 
 .nav-item a.nav-link:hover {
     color: var(--primary) !important;
+}
+
+/* Hero area */
+.hero.bg-cyan {
+    border-radius: 38px;
+}
+
+.hero-text .site-title {
+    font-size: 68px;
+    font-weight: 900; 
+    line-height: 92px;
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+.hero-text .site-desc {
+    font-size: 18px;
+    line-height: 37px;
+    color: var(--secondary);
+    margin-bottom: 40px;
+}
+
+.hero-btns p,
+.hero-btns p a {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary);
+}
+
+.hero-btns p a:hover {
+    color: #000;
 }
