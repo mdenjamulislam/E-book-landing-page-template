@@ -113,3 +113,43 @@ body {
 .hero-btns p a:hover {
     color: #000;
 }
+
+/* Stat area */
+.stats {
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.stats-num {
+    color: var(--primary);
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+}
+
+.stats-title {
+    color: var(--primary);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.stats-num::before {
+    position: absolute;
+    content: url(../images/blob1.svg);
+    z-index: -1;
+    left: -40px;
+    top: -12px;
+}
+
+.single-stats:nth-child(1) .stats-num::before {
+    content: url(../images/blob1.svg);
+}
+
+.single-stats:nth-child(2) .stats-num::before {
+    content: url(../images/blob2.svg);
+}
+
+.single-stats:nth-child(3) .stats-num::before {
+    content: url(../images/blob3.svg);
+}
