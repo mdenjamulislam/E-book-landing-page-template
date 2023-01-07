@@ -71,6 +71,7 @@
     .site-desc {
         font-size: 16px !important;
         line-height: 32px !important;
+        text-align: center !important;
     }
 
     .btn-filled {
