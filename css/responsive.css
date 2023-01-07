@@ -2,7 +2,7 @@
     Theme Responsive Stylesheet 
     Version: 1.0
 */
-
+/* Large Device Like Tablet */
 @media only screen and (max-width: 992px) {
     .author {
         margin-bottom: 145px;
@@ -33,7 +33,7 @@
         padding-right: 5px;
     }
 }
-
+/* Small Device */
 @media only screen and (max-width: 576px) {
     body {
         font-size: 14px;
@@ -65,6 +65,7 @@
     .site-title {
         font-size: 46px !important;
         line-height: 65px !important;
+        text-align: center !important;
     }
 
     .site-desc {
