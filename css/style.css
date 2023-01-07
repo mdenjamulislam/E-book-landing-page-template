@@ -432,3 +432,61 @@ p {
 .pricing-list li:not(:last-child) {
     border-bottom: 1px dashed #637892;
 }
+
+/* Call To Action Area */
+
+/* Footer Area */
+.footer {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-menu li {
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+}
+.footer-menu li:not(:last-child):after {
+    content: "/";
+    position: absolute;
+    color: #fff;
+    right: -5px;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #c6c6c6;
+    letter-spacing: 0.05rem;
+}
+
+.footer-menu li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+hr {
+    margin: 0;
+}
+
+.copyright p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #d7d7d7;
+    margin-bottom: 0;
+}
+
+.copyright p a {
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.copyright p a:hover {
+    text-decoration: underline;
+}
