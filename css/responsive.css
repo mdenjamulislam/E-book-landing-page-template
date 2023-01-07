@@ -1,0 +1,112 @@
+/* 
+    Theme Responsive Stylesheet 
+    Version: 1.0
+*/
+
+@media only screen and (max-width: 992px) {
+    .author {
+        margin-bottom: 145px;
+    }
+    
+    .author img {
+        margin: 0;
+    }
+    
+    .author::before {
+        width: 100%;
+        left: 0;
+    }
+
+    .about {
+        padding-bottom: 75px;
+    }
+
+    .control {
+        justify-content: center;
+    }
+
+    .tns-outer {
+        margin-right: 0;
+    }
+
+    .tns-item {
+        padding-right: 5px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+
+    p {
+        line-height: 26px;
+    }
+
+    .p-section {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .pt-section {
+        padding-top: 60px;
+    }
+
+    .pb-title {
+        padding-bottom: 50px;
+    }
+
+    .section-title {
+        font-size: 36px;
+        line-height: 51px;
+        padding-bottom: 12px;
+    }
+
+    .site-title {
+        font-size: 46px !important;
+        line-height: 65px !important;
+    }
+
+    .site-desc {
+        font-size: 16px !important;
+        line-height: 32px !important;
+    }
+
+    .btn-filled {
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .hero-btns p,
+    .hero-btns p a {
+        font-size: 15px;
+    }
+
+    .pricing-card {
+        padding: 1rem 1rem 2rem;
+    }
+
+    .pricing {
+        font-size: 45px;
+    }
+
+    .pricing-plan {
+        font-size: 21px;
+        margin: 37px 0;
+    }
+
+    .pricing-icon i {
+        font-size: 27px;
+    }
+
+    .pricing-icon i::after {
+        width: 75px;
+        height: 75px;
+        left: -75%;
+        top: -80%;
+    }
+
+    .footer .p-section {
+        padding-bottom: 40px ;
+    }
+}
