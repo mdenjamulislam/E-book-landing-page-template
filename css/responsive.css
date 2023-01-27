@@ -29,6 +29,12 @@
     .tns-item {
         padding-right: 5px;
     }
+
+    .app-subscribe img {
+        margin-bottom: 0;
+    }
+
+
 }
 /* Small Device */
 @media only screen and (max-width: 576px) {
@@ -51,6 +57,10 @@
 
     .pb-title {
         padding-bottom: 50px;
+    }
+
+    .more_book .pb-title {
+        margin-bottom: 30px;
     }
 
     .section-title {
