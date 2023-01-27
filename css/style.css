@@ -39,6 +39,7 @@
 :root {
     --primary: #212F3D;
     --secondary: #637892;
+    --cyan: #E4F5FE;
 }
 
 body {
@@ -62,7 +63,7 @@ p {
 }
 
 .bg-cyan {
-    background-color: #E4F5FE;
+    background-color: var(--cyan);
 }
 
 .p-section {
@@ -486,6 +487,44 @@ p {
 /*================================================
     9.0. Call To Action Area
 ================================================*/
+
+/*================================================
+    10.0. More Book Area
+================================================*/
+
+.book-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.book-card img {
+    position: relative;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.book-card:hover img {
+    transform: scale(1.1);
+}
+
+.book-card-cont {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .9);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.book-card:hover .book-card-cont {
+    bottom: 0;
+}
+
+.book-card-cont p.book-price {
+    padding: 0;
+    margin-bottom: 0;
+}
 
 /*================================================
     10.0. Footer Area
