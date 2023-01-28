@@ -21,8 +21,10 @@
     7.0. Testimonial Area
     8.0. Pricing Area
     9.0. Call To Action Area
-    10.0. Footer Area
-    11.0. Responsive Area
+    10.0. More Book Area
+    11.0. upcomimg
+    12.0. Footer Area
+    13.0. Responsive Area
 
 -------------------------------------------------*/
 /*================================================
@@ -531,7 +533,7 @@ p {
 }
 
 /*================================================
-    10.0. Footer Area
+    11.0. upcomimg
 ================================================*/
 
 .upcomimg {
@@ -544,7 +546,7 @@ p {
 }
 
 /*================================================
-    10.0. Footer Area
+    11.0. Footer Area
 ================================================*/
 
 .footer {
@@ -604,7 +606,7 @@ hr {
 
 
 /*================================================
-    11.0. Responsive Area
+    13.0. Responsive Area
 ================================================*/
 
 /* Large Device Like Tablet */
@@ -636,6 +638,9 @@ hr {
 
     .tns-item {
         padding-right: 5px;
+    }
+    .app-subscribe img {
+        margin-bottom: 0;
     }
 }
 /* Small Device */
