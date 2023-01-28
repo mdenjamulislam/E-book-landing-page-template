@@ -3,7 +3,7 @@
     Template name: BookMart E-book Landing Page Template
     Template URI: https://ebookmart.netlify.app/
     Author Name: Enjamul Islam
-    Author URI: https://enjamul.me
+    Author URI: https://themeforest.net/user/enjamulislam
     Description: Our e-book landing page template is designed to help authors and publishers promote and sell their digital books with a clean, modern, and optimized design that converts visitors into customers. The template includes a prominent call-to-action button, information about the book and author, and space for reviews and testimonials. It's fully customizable and easy to use.
     Version: 1.0
 
